@@ -11,6 +11,8 @@ In this repository, we release the official implementation for PACFL algorithm. 
 * IFCA
 * LG-FedAvg
 * CFL
+* MTL 
+* pFedMe
 * SOLO
 
 
