@@ -36,7 +36,7 @@ The descriptions of parameters are as follows:
 | local_bs     | Local batch size. |
 | lr           | The learning rate for local models. |
 | momentum     | The momentum for the optimizer. |
-| model        | Network architecture. Options: `TODO` |
+| model        | Network architecture. Options: simple-cnn, resnet9 |
 | dataset      | The dataset for training and testing. Options are discussed above. |
 | partition    | How datasets are partitioned. Options: `homo`, `noniid-labeldir`, `noniid-#label1` (or 2, 3, ..., which means the fixed number of labels each party owns). |
 | datadir      | The path of datasets. |
@@ -45,7 +45,7 @@ The descriptions of parameters are as follows:
 | alg          | Federated learning algorithm. Options are discussed above. |
 | beta         | The concentration parameter of the Dirichlet distribution for heterogeneous partition. |
 | local_view   | If true puts local test set for each client |
-| gpu          | The IDs of GPU to use. E.g., `TODO` |
+| gpu          | The IDs of GPU to use. E.g., 0 |
 | print_freq   | The frequency to print training logs. E.g., with `print_freq=10`, training logs are displayed every 10 communication rounds. |
 
 ## MIX-4 
