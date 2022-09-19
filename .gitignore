@@ -1,5 +1,6 @@
 # Object file
 *.o
-
+*__pycache__/
+.ipynb_checkpoints/
 # Ada Library Information
 *.ali
