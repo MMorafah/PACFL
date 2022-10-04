@@ -57,7 +57,13 @@ We have also released the codes for the generalization to unseen clients experim
 ## Citation 
 Please cite our work if you find it relavent to your research and used our implementations. 
 ```
-. 
+@article{vahidian2022efficient,
+  title={Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles Between Client Data Subspaces},
+  author={Vahidian, Saeed and Morafah, Mahdi and Wang, Weijia and Kungurtsev, Vyacheslav and Chen, Chen and Shah, Mubarak and Lin, Bill},
+  journal={arXiv preprint arXiv:2209.10526},
+  year={2022}
+}
+
 ```
 
 ## Acknowledgements
