@@ -1,6 +1,6 @@
 # Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles Between Client Data Subspaces (PACFL)
 
-The official code of paper ''[Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles Between Client Data Subspaces](https://arxiv.org/abs/2209.10526)''.
+The official code of paper ''[Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles Between Client Data Subspaces](https://arxiv.org/abs/2209.10526)''. **[Accepted at AAAI 2023]**
 
 In this repository, we release the official implementation for PACFL algorithm. We also release the implementation of the following algorithms:
 * FedAvg
