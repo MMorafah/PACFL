@@ -565,14 +565,14 @@ for idx in range(80, 100):
         
     test_loss.append(loss)
     test_acc.append(acc)
+
+    if acc > clients_best_acc[idx]:
+        clients_best_acc[idx] = acc
     
     loss, acc = clients[idx].eval_train()
     
     train_loss.append(loss)
     train_acc.append(acc)
-    
-    if acc > clients_best_acc[idx]:
-        clients_best_acc[idx] = acc
                 
     template = ("UnSeen Client {:3d}, labels {}, count {}, best_acc {:3.3f}, current_acc {:3.3f} \n")
     print(template.format(idx, traindata_cls_counts[idx], clients[idx].get_count(),
